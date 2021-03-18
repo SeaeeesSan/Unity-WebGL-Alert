@@ -4,7 +4,7 @@
 ```.cs
 WebGLAlert.ShowAlert("hello world");
 
-bool confirm = WebGLAlert.ShowConfirm("hello world").ToString();
+bool confirm = WebGLAlert.ShowConfirm("hello world");
 
 string prompt = WebGLAlert.ShowPrompt("hello world");
 ```
