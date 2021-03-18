@@ -9,7 +9,7 @@ public static class WebGLAlert
     private static extern string Prompt(string message);
     
     [DllImport("__Internal")]
-    private static extern bool confirm(string message);
+    private static extern bool Confirm(string message);
 
     /// <summary>
     /// ShowAlert
@@ -27,7 +27,7 @@ public static class WebGLAlert
     /// <returns></returns>
     public static bool ShowConfirm(string message)
     { 
-        return confirm(message);
+        return Confirm(message);
     }
     
     /// <summary>

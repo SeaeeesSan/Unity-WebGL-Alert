@@ -2,7 +2,7 @@ mergeInto(LibraryManager.library, {
     Alert: function (message) {
         window.alert(Pointer_stringify(message));
     },
-    confirm: function (message) {
+    Confirm: function (message) {
         var result = window.confirm(Pointer_stringify(message));
         return result;
     },
