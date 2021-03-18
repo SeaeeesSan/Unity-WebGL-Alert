@@ -2,9 +2,9 @@
  
 ## Usage
 ```.cs
-WebGLAlert.ShowAlert(alertTextField.text);
+WebGLAlert.ShowAlert("hello world");
 
-bool confirm = WebGLAlert.ShowConfirm(confirmTextField.text).ToString();
+bool confirm = WebGLAlert.ShowConfirm("hello world").ToString();
 
-string prompt = WebGLAlert.ShowPrompt(promptTextField.text);
+string prompt = WebGLAlert.ShowPrompt("hello world");
 ```
